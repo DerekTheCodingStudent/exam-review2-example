@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-#include <stdlib.h>
-
 
 int main() {
 	char exampleArray[] = {'a', '@', '.', 'b', '3', 'p', '7', 'A', ';', 'Z'};
@@ -49,6 +44,12 @@ int main() {
 	puts("Copying myStringThatShouldBeCopied to str!");
 	strcpy(str, "HELLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO EVERYBODYYYYYYYYYYYY!!!!! IT'S ME!!!!!!! DEREK!!!!");
 
-	printf("The contents of str is %s\n", str);	
+	printf("The contents of str is %s\n\n", str);	
+	
+	puts("Now, the final thing I should be talking about is the criteria");
+	puts("However, I think it is simple enough for me to just talk about it and not show how to do so because");
+	puts("The criteria/counting portion of question are if statements with the correct conditionals.");
+	puts("Good luck everyone!");
+
 	return 0;
 }
